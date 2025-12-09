@@ -16,8 +16,8 @@
       "forge": "36.2.34",
       "mainServer": true,
 
-      ""serverAddress": "localhost:25565",
-"connectOnLaunch": true,
+      "serverAddress": "localhost:25565",
+      "connectOnLaunch": true,
 
       "mods": {
         "required": [
@@ -97,7 +97,6 @@
             "download": "https://drive.google.com/uc?export=download&id=168Ia3EWKuxI1ce20dccqFdLa1Lw3qwNY"
           }
         ],
-
         "optional": []
       }
     }
