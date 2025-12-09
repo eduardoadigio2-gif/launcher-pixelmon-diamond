@@ -12,11 +12,15 @@
       "name": "Pixelmon Diamond",
       "description": "Servidor Pixelmon 1.16.5 - Modpack Completo.",
       "icon": "https://raw.githubusercontent.com/eduardoadigio2-gif/launcher-pixelmon-diamond/main/icon.png",
-
-      "address": "localhost:25565",
       "version": "1.16.5",
       "forge": "36.2.34",
       "mainServer": true,
+
+      "server": {
+        "ip": "localhost",
+        "port": 25565
+      },
+
       "connectOnLaunch": true,
 
       "mods": {
@@ -41,16 +45,3 @@
             "file": "Atlantis-1.16.5-6.9.3-universal-all.jar",
             "download": "https://raw.githubusercontent.com/eduardoadigio2-gif/launcher-pixelmon-diamond/main/mods/Atlantis-1.16.5-6.9.3-universal-all.jar"
           },
-          {
-            "name": "AutoRegLib",
-            "file": "AutoRegLib-1-6-49.jar",
-            "download": "https://raw.githubusercontent.com/eduardoadigio2-gif/launcher-pixelmon-diamond/main/mods/AutoRegLib-1.6-49.jar"
-          },
-          {
-            "name": "Bookshelf",
-            "file": "Bookshelf-forge-1.16.5-10.4.33.jar",
-            "download": "https://raw.githubusercontent.com/eduardoadigio2-gif/launcher-pixelmon-diamond/main/mods/Bookshelf-Forge-1.16.5-10.4.33.jar"
-          },
-          {
-            "name": "Cloth Config",
-            "file": "cloth-config-4.
