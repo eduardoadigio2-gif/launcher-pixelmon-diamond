@@ -16,12 +16,8 @@
       "forge": "36.2.34",
       "mainServer": true,
 
-      "serverStatus": {
-        "ip": "localhost",
-        "port": 25565
-      },
-
-      "connectOnLaunch": true,
+      ""serverAddress": "localhost:25565",
+"connectOnLaunch": true,
 
       "mods": {
         "required": [
