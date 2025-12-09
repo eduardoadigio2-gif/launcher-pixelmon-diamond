@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "version": 1,
+    "name": "Pixelmon Diamond Launcher",
+    "description": "Launcher oficial para o servidor Pixelmon Diamond.",
+    "icon": "https://raw.githubusercontent.com/SEUUSER/SEUREPO/main/icon.png"
+  },
+
+  "servers": [
+    {
+      "id": "pixelmon_diamond",
+      "name": "Pixelmon Diamond",
+      "description": "Servidor Pixelmon 1.16.5 - Modpack Completo.",
+      "icon": "https://raw.githubusercontent.com/SEUUSER/SEUREPO/main/icon.png",
+      "version": "1.16.5",
+      "forge": "36.2.34",
+      "mainServer": true,
+
+      "serverStatus": {
+        "ip": "localhost",
+        "port": 25565
+      },
+
+      "connectOnLaunch": true,
+
+      "mods": {
+        "required": [
+          {
+            "name": "AI-Improvements",
+            "file": "AI-Improvements-1.16.5-0.5.0.jar",
+            "download": ""
+          },
+          {
+            "name": "Appleskin",
+            "file": "appleskin-forge-mc1.16.x-2.5.1.jar",
+            "download": ""
+          },
+          {
+            "name": "AquaGTS",
+            "file": "AquaGTS-Mod-Forge-1.16.5.jar",
+            "download": ""
+          },
+          {
+            "name": "Atlantis",
+            "file": "Atlantis-1.16.5-6.9.3-universal-all.jar",
+            "download": ""
+          },
+          {
+            "name": "AutoRegLib",
+            "file": "AutoRegLib-1-6-49.jar",
+            "download": ""
+          },
+          {
+            "name": "Bookshelf",
+            "file": "Bookshelf-forge-1.16.5-10.4.33.jar",
+            "download": ""
+          },
+          {
+            "name": "Cloth Config",
+            "file": "cloth-config-4.17.132-forge.jar",
+            "download": ""
+          },
+          {
+            "name": "Clumps",
+            "file": "Clumps-6.0.0.28.jar",
+            "download": ""
+          },
+          {
+            "name": "Controlling",
+            "file": "Controlling-7.0.0.31.jar",
+            "download": ""
+          },
+          {
+            "name": "FPS Reducer",
+            "file": "FpsReducer-forge-1.24-mc1.16.5.jar",
+            "download": ""
+          },
+          {
+            "name": "Hwyla",
+            "file": "Hwyla-forge-1.10.11-B78_1.16.2.jar",
+            "download": ""
+          },
+          {
+            "name": "Immersive FX",
+            "file": "Immersive-FX-Mod-Forge-1.16.5.jar",
+            "download": ""
+          },
+          {
+            "name": "JEI",
+            "file": "jei-1.16.5-7.8.0.1013.jar",
+            "download": ""
+          },
+          {
+            "name": "Journeymap",
+            "file": "journeymap-1.16.5-5.8.6.jar",
+            "download": ""
+          },
+          {
+            "name": "Pixelmon",
+            "file": "Pixelmon-1.16.5-9.1.13-universal.jar",
+            "download": ""
+          }
+        ],
+
+        "optional": []
+      }
+    }
+  ]
+}
